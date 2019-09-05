@@ -68,4 +68,11 @@
     // The image is used as the primary means of visual identification of the article topic.
     // The image is used to identify the organization Buffalo Sabres, a subject of public interest. The significance of the logo is to help the reader identify the organization, assure the readers that they have reached the right article containing critical commentary about the organization, and illustrate the organization's intended branding message in a way that words alone could not convey.
 
+    var FlamesLogo = new LeafIcon({iconUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Calgary_Flames_Logo.svg/1920px-Calgary_Flames_Logo.svg.png', iconAnchor: [20,20], iconSize: [40,40]})
+    var CalgaryFlames = L.marker([42.8751,-78.8765], {icon: FlamesLogo}).addTo(Atlas);
+    CalgaryFlames.bindPopup('<a href="flames.html">Calgary Flames</a>');
+    // Fair use on HockeyAtlas of the Calgary Flames Logo
+    // The image is used as the primary means of visual identification of the article topic.
+    // The image is used to identify the organization Calgary Flames, a subject of public interest. The significance of the logo is to help the reader identify the organization, assure the readers that they have reached the right article containing critical commentary about the organization, and illustrate the organization's intended branding message in a way that words alone could not convey.
+
 </script>
