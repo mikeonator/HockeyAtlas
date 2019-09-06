@@ -110,7 +110,7 @@
     // The image is used as the primary means of visual identification of the article topic.
     // The image is used to identify the organization Dallas Stars, a subject of public interest. The significance of the logo is to help the reader identify the organization, assure the readers that they have reached the right article containing critical commentary about the organization, and illustrate the organization's intended branding message in a way that words alone could not convey. 
 
-    var RedWingsLogo = new LeafIcon({iconUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Detroit_Red_Wings_logo.svg/1920px-Detroit_Red_Wings_logo.svg.png', iconAnchor: [20,20], iconSize: [35,40]})
+    var RedWingsLogo = new LeafIcon({iconUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Detroit_Red_Wings_logo.svg/1920px-Detroit_Red_Wings_logo.svg.png', iconAnchor: [17,20], iconSize: [34,40]})
     var DetroitRedWings = L.marker([42.3410,-83.0550], {icon: RedWingsLogo}).addTo(Atlas);
     DetroitRedWings.bindPopup('<a href="redwings.html">Detroit Red Wings</a>');
     // Fair use on HockeyAtlas of the Detroit Red Wings Logo
@@ -119,11 +119,17 @@
 
     var OilersLogo = new LeafIcon({iconUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Logo_Edmonton_Oilers.svg/1920px-Logo_Edmonton_Oilers.svg.png', iconAnchor: [20,20], iconSize: [40,40]})
     var EdmontonOilers = L.marker([53.5470, -113.4979], {icon:OilersLogo}).addTo(Atlas);
-    EdmontonOilers.bindPopup('<a href="redwings.html">Edmonton Oilers</a>');
+    EdmontonOilers.bindPopup('<a href="oilers.html">Edmonton Oilers</a>');
     // Fair use on HockeyAtlas of the Edmonton Oilers Logo
     // The image is used as the primary means of visual identification of the article topic.
     // The image is used to identify the organization Edmonton Oilers, a subject of public interest. The significance of the logo is to help the reader identify the organization, assure the readers that they have reached the right article containing critical commentary about the organization, and illustrate the organization's intended branding message in a way that words alone could not convey.
 
-    
+    var PanthersLogo = new LeafIcon({iconUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Florida_Panthers_2016_logo.svg/1280px-Florida_Panthers_2016_logo.svg.png', iconAnchor: [17,20], iconSize: [34,40]})
+    var FloridaPanthers = L.marker([26.1585,-80.3256], {icon:PanthersLogo}).addTo(Atlas);
+    FloridaPanthers.bindPopup('<a href="panthers.html">Florida Panthers</a>');
+    // Fair use on HockeyAtlas of the Florida Panthers Logo
+    // The image is used as the primary means of visual identification of the article topic.
+    // The image is used to identify the organization Florida Panthers, a subject of public interest. The significance of the logo is to help the reader identify the organization, assure the readers that they have reached the right article containing critical commentary about the organization, and illustrate the organization's intended branding message in a way that words alone could not convey.
+
 
 </script>
