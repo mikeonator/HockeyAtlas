@@ -216,17 +216,24 @@
     // The image is used to identify the organization Tampa Bay Lightning, a subject of public interest. The significance of the logo is to help the reader identify the organization, assure the readers that they have reached the right article containing critical commentary about the organization, and illustrate the organization's intended branding message in a way that words alone could not convey.
 
     var LeafsLogo = new LeafIcon({iconUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Toronto_Maple_Leafs_2016_logo.svg/1280px-Toronto_Maple_Leafs_2016_logo.svg.png', iconAnchor: [18,20], iconSize: [36,40]})
-    var TorontoMapleLeafs = L.marker([43.6435, -79.3791], {riseOnHover: true, icon: LightningLogo}).addTo(Atlas);
+    var TorontoMapleLeafs = L.marker([43.6435, -79.3791], {riseOnHover: true, icon: LeafsLogo}).addTo(Atlas);
     TorontoMapleLeafs.bindPopup('<a href="lightning.html">Toronto Maple Leafs</a>');
     // Fair use on HockeyAtlas of the Toronto Maple Leafs Logo
     // The image is used as the primary means of visual identification of the article topic.
     // The image is used to identify the organization Toronto Maple Leafs, a subject of public interest. The significance of the logo is to help the reader identify the organization, assure the readers that they have reached the right article containing critical commentary about the organization, and illustrate the organization's intended branding message in a way that words alone could not convey.
 
     var GoldenKnightsLogo = new LeafIcon({iconUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Vegas_Golden_Knights_logo.svg/1024px-Vegas_Golden_Knights_logo.svg.png', iconAnchor: [18,22], iconSize: [36,44]})
-    var VegasGoldenKnights = L.marker([36.1029, -115.1784], {riseOnHover: true, icon: LightningLogo}).addTo(Atlas);
+    var VegasGoldenKnights = L.marker([36.1029, -115.1784], {riseOnHover: true, icon: GoldenKnightsLogo}).addTo(Atlas);
     VegasGoldenKnights.bindPopup('<a href="goldenknights.html">Vegas Golden Knights</a>');
     // Fair use on HockeyAtlas of the Vegas Golden Knights Logo
     // The image is used as the primary means of visual identification of the article topic.
     // The image is used to identify the organization Vegas Golden Knights, a subject of public interest. The significance of the logo is to help the reader identify the organization, assure the readers that they have reached the right article containing critical commentary about the organization, and illustrate the organization's intended branding message in a way that words alone could not convey.
+
+    var CapitalsLogo = new LeafIcon({iconUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Washington_Capitals.svg/2560px-Washington_Capitals.svg.png', iconAnchor: [22,19], iconSize: [44,38]})
+    var WashingtonCapitals = L.marker([38.8981, -77.0209], {riseOnHover: true, icon: CapitalsLogo}).addTo(Atlas);
+    WashingtonCapitals.bindPopup('<a href="capitals.html">Washington Capitals</a>');
+    // Fair use on HockeyAtlas of the Washington Capitals Logo
+    // The image is used as the primary means of visual identification of the article topic.
+    // The image is used to identify the organization Washington Capitals, a subject of public interest. The significance of the logo is to help the reader identify the organization, assure the readers that they have reached the right article containing critical commentary about the organization, and illustrate the organization's intended branding message in a way that words alone could not convey.
 
 </script>
